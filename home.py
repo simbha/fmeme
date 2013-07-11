@@ -11,7 +11,7 @@ from constants import app_id, canvas_page, auth_url
 class HomeHandler(webapp.RequestHandler):
   def get(self):
     feed_url = self.feed_dialog_url()
-    f = open('static/html/index.html')
+    f = open('inc/html/index.html')
     self.response.out.write(f.read() % {'feed_url': feed_url})
     return
 
@@ -47,7 +47,7 @@ class HomeHandler(webapp.RequestHandler):
       # show the main page
 
       feed_url = self.feed_dialog_url()
-      f = open('static/html/index.html')
+      f = open('inc/html/index.html')
       self.response.out.write(f.read() % {'feed_url': feed_url})
 
 

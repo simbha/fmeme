@@ -4,7 +4,7 @@ import random
 
 """ make five test users, and make them all friends """
 
-make_user_url = 'https://graph.facebook.com/271791476212242/accounts/test-users?installed=true&method=post&access_token=271791476212242|NG4tUL8Z4uozz_qvR91_Bo0nCS4&name=effmeme%20'
+make_user_url = 'https://graph.facebook.com/550291425003389/accounts/test-users?installed=true&method=post&access_token=550291425003389|Kb8UyyCecdVD_Vqds3vUY4w7UzE'
 
 def main():
   # create five test users
